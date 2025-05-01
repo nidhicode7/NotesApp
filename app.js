@@ -6,7 +6,7 @@ import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, si
 
 // Your Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBtQT64t3_IHdqBc8UhqXrX3XmmlYPe7Dk",
+  apiKey: "pasteyourapikey",
   authDomain: "notesapp-cd5b8.firebaseapp.com",
   projectId: "notesapp-cd5b8",
   storageBucket: "notesapp-cd5b8.firebasestorage.app",
@@ -45,7 +45,7 @@ window.logIn = function () {
       document.getElementById("message").innerText = "❌ " + error.message;
     });
 };
-
+//AIzaSyBtQT64t3_IHdqBc8UhqXrX3XmmlYPe7Dk
 // Log Out function
 window.logOut = function () {
   signOut(auth)
